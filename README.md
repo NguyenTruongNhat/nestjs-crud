@@ -18,3 +18,22 @@ nest g s prisma --flat --no-spec
 npm i --save class-validator class-transformer
 npm i dotenv
 
+
+#16
+nest g s shared/services/hasing --flat -- no-spec
+npm i @types/bcrypt -D
+
+nest g mo routes/auth --no-spec
+
+
+
+
+
+
+
+
+
+
+
+
+
